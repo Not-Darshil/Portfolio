@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: var(--white);
+}
+
+:root {
+    --black: #0C0C0C; 
+    --white: #F1FAFF;
+    --grey: #9c9c9c;
+    --dark-grey:#2D2F33;
+}
+
+
+.description-text{
+    font-size: 0.7rem;
+    color: var(--grey);
+}
+
+.simple-line{
+    margin-top: 10px;
+    height:1px;
+    width: 100%;
+    background-color: var(--grey);
+
+}
+
+.arrow{
+    opacity: 0;
+}
+
+.projects-card:hover{
+    .arrow{
+        opacity: 1;
+    }
+}
+
+body{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.145) 1.5px, transparent 1.5px);
+    background-size: 29px 29px;
+    background-color: var(--black);  
+}
+
+.main{
+    /* width:23.25rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.projects-card{
+    width:11rem;
+    height:11rem;
+    background-color: var(--dark-grey);
+    border-radius: 0.25rem;
+}
