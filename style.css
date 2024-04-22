@@ -18,7 +18,8 @@
 }
 
 .simple-line{
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     height:1px;
     width: 100%;
     background-color: var(--grey);
@@ -52,6 +53,14 @@ body{
 .projects-card{
     width:11rem;
     height:11rem;
+    background-color: var(--dark-grey);
+    border-radius: 0.25rem;
+}
+
+
+.tech-card{
+    width:7.2rem;
+    height:7.2rem;
     background-color: var(--dark-grey);
     border-radius: 0.25rem;
 }
