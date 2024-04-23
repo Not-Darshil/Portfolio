@@ -50,14 +50,12 @@
     background: linear-gradient(transparent 60%, purple 40%);
 }
 
-
 .linear-highlight{
     color: linear-gradient();
     background: linear-gradient(to right,rgb(142, 135, 252), rgb(176, 11, 126));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 
 .hero-button{
     width:max-content;
@@ -91,8 +89,6 @@
         opacity: 1;
     }
     background-color: var(--darker-grey);
-
-
 }
 
 body{
@@ -147,4 +143,23 @@ body{
 }
 .resume-button:hover{
     transform: scale(1.1);
+}
+
+.blogs-card{
+    width:11rem;
+    height:18rem;
+    background-color: var(--dark-grey);
+    border-radius: 0.25rem;
+    padding: 0;
+}
+
+.blogs-card:hover{
+    .arrow{
+        opacity: 1;
+    }
+    background-color: var(--darker-grey);
+}
+
+.blogs-card strong{
+    font-size: 0.8rem;
 }
