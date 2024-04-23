@@ -7,9 +7,10 @@
 :root {
     --black: #0C0C0C; 
     --white: #F1FAFF;
+    --vlight-grey: #ababab81;
     --grey: #9c9c9c;
     --dark-grey:#2D2F33;
-    --darker-grey:#2d2f33ce;
+    --darker-grey:#27282bce;
 }
 
 
@@ -26,9 +27,9 @@
 .simple-line{
     margin-top: 12px;
     margin-bottom: 12px;
-    height:1px;
+    height:0.1px;
     width: 100%;
-    background-color: var(--grey);
+    background-color: var(--vlight-grey);
     
 }
 .online > p{
@@ -128,3 +129,22 @@ body{
     background-color: var(--darker-grey);
 }
 
+.resume-button{
+    width:max-content;
+    background-color: var(--dark-grey) !important;
+    color: var(--light-grey);
+    border: none;
+    font-size: 0.63rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.resume-button > img{
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+}
+.resume-button:hover img{
+    transform: scale(1.1);
+}
+.resume-button:hover{
+    transform: scale(1.1);
+}
