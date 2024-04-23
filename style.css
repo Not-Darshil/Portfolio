@@ -9,6 +9,7 @@
     --white: #F1FAFF;
     --grey: #9c9c9c;
     --dark-grey:#2D2F33;
+    --darker-grey:#2d2f33ce;
 }
 
 
@@ -88,6 +89,9 @@
     .arrow{
         opacity: 1;
     }
+    background-color: var(--darker-grey);
+
+
 }
 
 body{
@@ -118,5 +122,9 @@ body{
     height:7.2rem;
     background-color: var(--dark-grey);
     border-radius: 0.25rem;
+}
+
+.tech-card:hover{
+    background-color: var(--darker-grey);
 }
 
