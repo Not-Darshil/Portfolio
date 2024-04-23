@@ -17,13 +17,67 @@
     color: var(--grey);
 }
 
+.description-text>p{
+    font-size: 0.7rem;
+    color: var(--grey);
+}
+
 .simple-line{
     margin-top: 12px;
     margin-bottom: 12px;
     height:1px;
     width: 100%;
     background-color: var(--grey);
+    
+}
+.online > p{
+    color:rgb(52, 238, 52);
+    font-size: 1rem;
+}
+.status-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(52, 238, 52);
+    border-radius: 50%;
+    margin-right: 0.5rem; /* Add some space between the dot and the text */
+    margin-top: 0.1rem; /* Add tight margin on top */
+    margin-bottom: 0.1rem; /* Add tight margin on bottom */
+}
 
+.name {
+    background: linear-gradient(transparent 60%, purple 40%);
+}
+
+
+.linear-highlight{
+    color: linear-gradient();
+    background: linear-gradient(to right,rgb(142, 135, 252), rgb(176, 11, 126));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.hero-button{
+    width:max-content;
+    background-color: var(--dark-grey) !important;
+    border: none;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.hero-button > img{
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+}
+.hero-button:hover img{
+    transform: scale(1.1);
+}
+.hero-button:hover{
+    transform: scale(1.1);
+}
+#hero-description{
+    letter-spacing: 0.6px;
+    line-height: 1rem;
 }
 
 .arrow{
@@ -43,9 +97,10 @@ body{
 }
 
 .main{
-    /* width:23.25rem; */
+    width:23.25rem;
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
 }
 
 
@@ -64,3 +119,4 @@ body{
     background-color: var(--dark-grey);
     border-radius: 0.25rem;
 }
+
