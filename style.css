@@ -97,8 +97,12 @@ body{
     background-color: var(--black);  
 }
 
-.main{
+.middle-content{
     width:23.25rem;
+}
+.main{
+    width:100%;
+    /* width:23.25rem; */
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
