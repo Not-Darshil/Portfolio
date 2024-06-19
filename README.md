@@ -1,3 +1,3 @@
 # Portfolio
 
-LINK : not-darshil.netlify.app
+LINK : https://not-darshil.netlify.app/
